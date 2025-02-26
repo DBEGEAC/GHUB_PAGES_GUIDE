@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #28a745 !important; /* Green */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #6f42c1 !important; /* Violet */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #28a745; /* Green */
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.hero .btn-violet {
+    background-color: #6f42c1; /* Violet */
+    color: white;
+}
+
+.hero .btn-violet:hover {
+    background-color: #5a32a3; /* Darker Violet */
+}
+
+/* About Section */
+.about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #28a745; /* Green */
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Resume Section */
+.resume {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume h3 {
+    font-size: 1.5rem;
+    color: #28a745; /* Green */
+}
+
+.resume ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.resume li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #e63946; /* Red */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Custom Styles for Contact Page */
+
+/* Button Style */
+.btn-violet {
+    background-color: violet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-violet:hover {
+    background-color: darkviolet;
+}
+
+/* Contact Information Section */
+.contact ul {
+    margin-top: 20px;
+}
+.contact ul li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.contact ul li i {
+    color: violet;
+    margin-right: 10px;
+}
+
+/* Profile Image */
+img.rounded-circle {
+    margin-bottom: 20px;
+    border: 5px solid violet;
+}
+
+/* Footer Styling */
+footer {
+    background-color: red;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Custom Styles for Portfolio Page */
+
+/* Card Image Styling */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Content Styling */
+.card-body {
+    background-color: #f8f9fa;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Icons List Styling */
+ul.list-unstyled {
+    padding-left: 0;
+}
+
+ul.list-unstyled li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+ul.list-unstyled li i {
+    color: violet;
+    margin-right: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: red;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
